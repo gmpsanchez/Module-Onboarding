@@ -6,3 +6,4 @@ A wireframe is a basic visual outline of a website or application. It shows the 
 
 
 1. What is a branch in Git?
+A branch in Git is a separate line of development that allows developers to work on new features or fix bugs without directly changing the main branch. When the work is complete, the changes can be merged into the main branch.
