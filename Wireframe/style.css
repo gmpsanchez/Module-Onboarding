@@ -30,11 +30,30 @@ body {
   background: var(--paper);
   color: var(--ink);
   font: var(--font);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 a {
   padding: var(--space);
   border: var(--line);
+  background-color:oklch(26.402% 0.16739 264.566);
+  color: white;
   max-width: fit-content;
+}
+a:hover {
+  background-color:oklch(51.083% 0.22529 271.452);
+}
+footer a {
+  padding: 0;
+  border: none;
+  max-width: none;
+  background-color:oklch(26.402% 0.16739 264.566);
+  color: white;
+}
+footer a:hover {
+  color: oklch(59.695% 0.12923 248.049);
+  background-color:oklch(26.402% 0.16739 264.566);
 }
 img,
 svg {
@@ -48,10 +67,17 @@ https://www.w3.org/WAI/tutorials/page-structure/regions/
 main {
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color:oklch(26.402% 0.16739 264.566);
+  color: white;
   text-align: center;
 }
 /* ====== Articles Grid Layout ====

@@ -17,11 +17,33 @@
         <!-- 
           try writing out the requirements first as comments
         this will also help you fill in your PR message later-->
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+            <legend>What color do you want?</legend>
+            <label><input type="radio" name="color" value="black" required> Black</label>
+            <label><input type="radio" name="color" value="white" required> White</label>
+            <label><input type="radio" name="color" value="blue" required> Blue</label>
+        </fieldset>
+        <label for="size">What is your size?</label>
+        <select id="size" name="size" required>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Gabbie Sanchez</h2>
     </footer>
   </body>
 </html>
